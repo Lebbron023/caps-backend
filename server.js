@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors'); // Import the cors package
 
 const app = express();
-
+const PORT = process.env.PORT || 3000; 
 
 
 // Enable CORS for all origins (or customize it)
